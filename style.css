@@ -180,12 +180,11 @@ button:hover{
 
 .progress{
     height:100%;
-
     background:gold;
-
     border-radius:20px;
-}
 
+    animation:growBar 2s ease forwards;
+}
 .programming{
     width:85%;
 }
@@ -196,4 +195,11 @@ button:hover{
 
 .technology{
     width:75%;
+}
+@keyframes growBar{
+
+    from{
+        width:0;
+    }
+
 }
