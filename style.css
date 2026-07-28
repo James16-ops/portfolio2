@@ -1,11 +1,97 @@
-body{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 100px;
-    font-family: Arial, sans-serif;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-h1{
-    color: gold;
+body{
+    background:black;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+/* Navigation */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 50px;
+
+    border-bottom:1px solid gold;
+}
+
+nav h2{
+    color:gold;
+    font-size:2rem;
+}
+
+/* Hero Section */
+
+.hero{
+    height:90vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.hero h1{
+    color:gold;
+
+    font-size:5rem;
+
+    text-shadow:
+        0 0 10px gold,
+        0 0 20px gold,
+        0 0 40px gold;
+}
+
+.hero h2{
+    margin-top:15px;
+
+    font-size:2rem;
+}
+
+.hero p{
+    margin-top:20px;
+
+    max-width:600px;
+
+    line-height:1.6;
+}
+
+button{
+    margin-top:30px;
+
+    padding:15px 35px;
+
+    background:transparent;
+
+    border:2px solid gold;
+
+    color:gold;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+button:hover{
+    background:gold;
+    color:black;
+
+    box-shadow:
+        0 0 10px gold,
+        0 0 20px gold,
+        0 0 40px gold;
 }
