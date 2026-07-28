@@ -44,7 +44,21 @@ nav h2{
 
     text-align:center;
 
-    padding:20px;
+    padding:40px;
+
+    max-width:900px;
+    margin:50px auto;
+
+    background:rgba(0,0,0,0.35);
+
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,215,0,0.3);
+
+    border-radius:20px;
+
+    box-shadow:
+        0 0 20px rgba(255,215,0,0.2);
 }
 
 .hero h1{
