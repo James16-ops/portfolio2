@@ -86,25 +86,20 @@ nav h2{
     line-height:1.6;
 }
 
-button{
+.explore-btn{
     margin-top:30px;
-
     padding:15px 35px;
 
     background:transparent;
-
     border:2px solid gold;
 
     color:gold;
-
-    font-size:1rem;
-
-    cursor:pointer;
+    text-decoration:none;
 
     transition:0.3s;
 }
 
-button:hover{
+.explore-btn:hover{
     background:gold;
     color:black;
 
