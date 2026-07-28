@@ -230,3 +230,10 @@ body::before{
 
     z-index:-1;
 }
+nav,
+.hero,
+.about,
+.contact{
+    position:relative;
+    z-index:1;
+}
