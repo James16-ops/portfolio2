@@ -294,3 +294,49 @@ nav,
         0 0 25px gold,
         0 0 50px gold;
 }
+/* Skills */
+
+.skills{
+    padding:100px 20px;
+    text-align:center;
+}
+
+.skills h2{
+    color:gold;
+    font-size:2.5rem;
+    margin-bottom:40px;
+}
+
+.skills-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.skill-card{
+    width:250px;
+    padding:25px;
+
+    background:rgba(0,0,0,0.45);
+
+    border:1px solid gold;
+    border-radius:15px;
+
+    backdrop-filter:blur(8px);
+
+    transition:0.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+
+    box-shadow:
+        0 0 15px gold,
+        0 0 30px rgba(255,215,0,0.4);
+}
+
+.skill-card h3{
+    color:gold;
+    margin-bottom:15px;
+}
